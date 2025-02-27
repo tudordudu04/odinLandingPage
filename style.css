@@ -18,7 +18,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    /* border: 3px solid magenta; */
 }
 
 .header,
@@ -26,16 +25,13 @@ body {
 .footer {
     background-color: #1f2937;
 }
+.leftOfImage button,
 .advertisement button,
 .advertisement h4,
 .advertisement p,
 #headerLogo,
 .first h2 {
     color: #f9faf8;
-}
-
-#headerLogo {
-    font-size: 24px;
 }
 
 .header,
@@ -63,7 +59,6 @@ body {
     display: flex;
     flex-direction: column;
     padding: 0px 150px;
-    /* margin: px; */
 }
 .author{
     color: #1f2937;
@@ -72,9 +67,6 @@ body {
     align-self: flex-end;
 }
 
-.header {
-    justify-content: space-between;
-}
 
 .footer {
     justify-content: center;
@@ -100,7 +92,6 @@ body {
 
 .advertisement{
     flex: 1;
-    /* border: 2px solid green; */
     display: flex;
     justify-content: space-between;
     padding: 60px 140px;
@@ -120,8 +111,8 @@ body {
     font-weight: 800;
     font-size: 18px;
     padding: 0 34px;
-    border: 3px solid #f9faf8;
     border-radius: 9px;
+    border: 3px solid #f9faf8;
 }
 .second {
     padding: 60px 350px;
@@ -140,8 +131,6 @@ body {
     color: #1f2937;
     font-size: 36px;
     font-weight: 900;
-    /* flex: 1 1 20px; */
-    /* height: 60px; */
 }
 .subtext{
     width: 200px;
@@ -157,7 +146,7 @@ body {
 .fourth,
 .footer {
     display: flex;
-    padding: 0px 250px;
+    padding: 0px 300px;
 }
 
 .header ul {
@@ -175,34 +164,50 @@ body {
     text-decoration: none;
 }
 
+.header {
+    justify-content: space-between;
+}
 
-
+#headerLogo {
+    font-size: 24px;
+}
+.first{
+    gap: 120px;
+}
+.first img{
+    height: 300px;
+    flex: 1;
+    object-fit: cover;
+    object-position: center;
+}
 .leftOfImage {
     display: flex;
     flex-direction: column;
+    gap: 8px;
+    flex: 1;
+}
+.leftOfImage button{
+    background-color: #3882f6;
+    border-color: #3882f6;
+    font-weight: 800;
+    font-size: 18px;
+    padding: 6px 34px;
+    border-radius: 9px;
+    align-self: flex-start;
 }
 
 .box {
-    /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
 }
 
 .box img {
     width: 200px;
     height: 200px;
-    border: 3px solid #3882f6;
+    border: 4px solid #3882f6;
     border-radius: 20px;
-    /* nu stiu cum merge object fit inca */
     object-fit: cover;
     object-position: center;
 
-}
-
-.first img {
-    /* border: 2px solid red; */
-    height: 200px;
-    width: 200px;
 }
